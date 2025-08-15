@@ -1,0 +1,23 @@
+/* src/styles/result-page.css */
+.result-page {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.result-page button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.result-page button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}

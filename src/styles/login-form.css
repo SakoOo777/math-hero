@@ -1,0 +1,98 @@
+/* src/styles/login-form.css */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #fceabb, #f8b500);
+  font-family: 'Comic Sans MS', cursive;
+  padding: 20px;
+}
+
+.intro-box {
+  background-color: #fff8dc;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.intro-box h1 {
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+.intro-box p {
+  font-size: 16px;
+  color: #333;
+}
+
+.form-box {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form {
+  margin-bottom: 15px;
+}
+
+.login-form h2 {
+  color: #00796b;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #4db6ac;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #00796b;
+  transform: scale(1.05);
+  color: white;
+}
+
+.register-button {
+  margin-top: 10px;
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #ff9900;
+  transform: scale(1.05);
+}
