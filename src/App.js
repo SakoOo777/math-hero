@@ -1,12 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
 import LevelSelector from './components/LevelSelector';
 import GamePage from './pages/GamePage';
 import ResultPage from './pages/ResultPage';
 
-const App = () => {
+function App() {
   return (
     <Router>
       <Routes>
@@ -15,9 +16,10 @@ const App = () => {
         <Route path="/levels" element={<LevelSelector />} />
         <Route path="/game/:level" element={<GamePage />} />
         <Route path="/result" element={<ResultPage />} />
+        <Route path="*" element={<LoginPage />} />
       </Routes>
     </Router>
   );
-};
+}
 
 export default App;
