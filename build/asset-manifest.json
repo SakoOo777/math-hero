@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/math-hero/static/css/main.0ef1b6e3.css",
+    "main.js": "/math-hero/static/js/main.8e83dd38.js",
+    "index.html": "/math-hero/index.html",
+    "main.0ef1b6e3.css.map": "/math-hero/static/css/main.0ef1b6e3.css.map",
+    "main.8e83dd38.js.map": "/math-hero/static/js/main.8e83dd38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ef1b6e3.css",
+    "static/js/main.8e83dd38.js"
+  ]
+}
